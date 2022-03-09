@@ -23,6 +23,14 @@ export function Header() {
                   Buscador de películas
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink
+                  className={(navlink) => `nav-link${navlink.isActive ? ' active' : ''}`}
+                  to="/mylist"
+                >
+                  Mi lista
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
