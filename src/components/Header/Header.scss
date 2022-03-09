@@ -1,0 +1,10 @@
+a.nav-link {
+  color: #C4C4C4;
+  &.active, &:hover, &:active {
+    color: #fff;
+
+  }
+}
+.logo {  
+  height: 20px;
+}

@@ -1,0 +1,23 @@
+.movie {
+  min-height: 200px;
+  .card{
+    overflow: hidden;
+    .img-cover {
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+    }
+  }
+  .card {
+    height: 100%;
+  }
+  .image-container, .row {
+    min-height: 200px;
+    @media (min-width: 992px) {
+      height: 100%;
+    }
+  }
+  .image-container {
+    min-height: 200px;
+  }
+}
