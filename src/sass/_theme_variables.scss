@@ -1,0 +1,98 @@
+@import "bootstrap5/mixins";
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: calc($spacer / 4),
+  2: calc($spacer / 2),
+  3: calc($spacer),
+  4: calc($spacer * 0.25),
+  5: calc($spacer * 3),
+  6: calc($spacer * 4.5),  //added
+  7: calc($spacer * 6), //added
+  8: calc($spacer * 0.5), //added
+  10: calc($spacer * 0.625), //10px
+  12: calc($spacer * 0.75), // 12px
+  16: calc($spacer * 1), // 16px
+  18: calc($spacer * 1.125), // 18px
+  20: calc($spacer * 1.25), // 21px
+  24: calc($spacer * 1.5), // 24px
+  28: calc($spacer * 1.75), // 28px
+  30: calc($spacer * 1.875), // 30px
+  32: calc($spacer * 2), // 32px
+  36: calc($spacer * 2.25), // 36px
+  40: calc($spacer * 2.5), // 36px
+  44: calc($spacer * 2.75), // 44px
+  48: calc($spacer * 3), // 48px
+  56: calc($spacer * 3.5), // 48px
+  64: calc($spacer * 4), // 64px
+  70: calc($spacer * 4.375), // 70px
+  80:  ($spacer * 5), // 80px
+  96:  ($spacer * 6), // 96px
+  112:  ($spacer * 7), // 112px
+  138: ($spacer * 8.625), // 138px
+  150: ($spacer * 9.375), // 150px
+  160: ($spacer * 10), // 160px
+  176: ($spacer * 11), // 176px
+  192: ($spacer * 12), // 192px
+  256: ($spacer * 16), // 256px
+) !default;
+
+$enable-negative-margins: true;
+
+$font-family-base: 'Roboto', sans-serif;
+$font-size-base: 1rem !default;
+
+// Font sizes
+$display-font-sizes: (
+ 1:  $font-size-base * 2.25,
+ 2:  $font-size-base * 1.125,
+ 3:  $font-size-base,
+ 4:  $font-size-base * 1.5, // Icons 24px
+) !default;
+
+$enable-rfs: false;
+
+$primary    : #032541 !default;
+$secondary  : #999ABD !default;
+$gray       : #C4C4C4 !default;
+$success    : #198754 !default;
+$warning    : #A60067 !default;
+$black      : #000000 !default;
+$white      : #ffffff !default;
+
+
+$theme-colors: (
+  "primary"   : $primary,
+  "secondary" : $secondary,
+  "gray"      : $gray,
+  "success"   : $success,
+  "warning"   : $warning,
+  "black"     : $black,
+  "white"     : $white
+);
+
+$line-height-base:            1 !default;
+
+$input-btn-line-height:             1 !default;
+$input-btn-padding-y:         1.16rem !default;
+$input-btn-padding-x:         1rem !default;
+$input-btn-font-size:         $font-size-base !default;
+$input-btn-padding-x-md:      3.75rem !default;
+$input-btn-font-size-md:      $font-size-base * 1.25 !default;
+$input-btn-padding-y-lg:      .75rem !default;
+$input-btn-padding-x-lg:      4.063rem !default;
+$input-btn-font-size-lg:      1.125rem !default;
+$btn-padding-y:               $input-btn-padding-y !default;
+$btn-padding-x:               $input-btn-padding-x !default;
+$btn-font-size:               $input-btn-font-size !default;
+$btn-padding-x-md:            $input-btn-padding-x-md !default;
+$btn-font-size-md:            $input-btn-font-size-md !default;
+
+$btn-padding-y-lg:            $input-btn-padding-y-lg !default;
+$btn-padding-x-lg:            $input-btn-padding-x-lg !default;
+$btn-font-size-lg:            $input-btn-font-size-lg !default;
+
+$navbar-padding-y:                  $spacer !default;
+$navbar-padding-x:                   $spacer !default;
+$btn-border-radius:           10px !default;
+$border-radius:               30px !default;
