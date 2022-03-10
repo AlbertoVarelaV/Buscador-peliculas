@@ -4,7 +4,7 @@ const initialState = {
   myList: [],
 };
 
-export const moviesReducer = (state = initialState, action = {}) => {
+export const myListReducer = (state = initialState, action = {}) => {
   switch (action.type) {
     case types.addVote:
       return {
@@ -20,4 +20,4 @@ export const moviesReducer = (state = initialState, action = {}) => {
   }
 };
 
-export default moviesReducer;
+export default myListReducer;
